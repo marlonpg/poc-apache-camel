@@ -36,13 +36,17 @@ src/main/java/com/example/camel/
 
 ### Prerequisites
 - Java 17+
-- Maven
+- Maven Wrapper (included)
 
 ### Build and Run
 
 ```bash
-mvn clean install
-mvn spring-boot:run
+# Using Maven Wrapper (recommended)
+./mvnw clean install
+./mvnw spring-boot:run
+
+# Or use the provided script
+./run.sh
 ```
 
 The application will start on `http://localhost:8080`
